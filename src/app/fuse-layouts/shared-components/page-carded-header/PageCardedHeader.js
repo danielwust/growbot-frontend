@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Grid, Typography } from '@material-ui/core';
 import { ArrowBack } from '@material-ui/icons';
 
-import ButtonDefault from 'app/fuse-layouts/shared-components/button-default/ButtonDeafault';
+import ButtonDefault from 'app/fuse-layouts/shared-components/button-default/ButtonDefault';
 
 export default function PageCardedHeader({ link, textBack, title, buttonTitle, buttonAction }) {
 	return (

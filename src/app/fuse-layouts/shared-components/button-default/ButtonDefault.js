@@ -7,7 +7,7 @@ export default function ButtonPrimary({ title, disabled, type, ariaLabel, fullWi
 			type={type}
 			variant="contained"
 			color="secondary"
-			className=" mx-auto mt-16 text-20 font-extrabold"
+			className="ml-3 px-10 py-6"
 			aria-label={ariaLabel}
 			fullWidth={fullWidth}
 			disabled={disabled || loading}
