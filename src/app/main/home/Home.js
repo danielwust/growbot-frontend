@@ -1,8 +1,9 @@
-import ChatContent from '@fuse/core/ChatContent';
-import FusePageSimple from '@fuse/core/FusePageSimple';
 import { makeStyles } from '@material-ui/core/styles';
-import React from 'react';
 import { useTranslation } from 'react-i18next';
+import React from 'react';
+
+import FusePageSimple from '@fuse/core/FusePageSimple';
+import ChatContent from '@fuse/core/ChatContent';
 
 const useStyles = makeStyles(theme => ({
 	layoutRoot: {}
@@ -17,20 +18,14 @@ function Home(props) {
 			classes={{
 				root: classes.layoutRoot
 			}}
-			header={
-				<div className="p-24">
-					<h4>Bot De Comandos</h4>
-				</div>
-			}
+			// header={}
 			contentToolbar={
 				<div className="px-24">
-					<h4>Content Toolbar</h4>
+					<h4>Bem vindo ao portal do BOT da Growdev</h4>
 				</div>
 			}
 			content={
 				<div className="p-24">
-					<h4>Content</h4>
-					<br />
 					<ChatContent />
 				</div>
 			}
