@@ -17,12 +17,10 @@ function FooterLayout1(props) {
 					style={{
 							backgroundColor: footerTheme.palette.background.paper,
 					}}>
-					<Typography>
-						<div class="mx-10 my-8 flex items-center justify-between">
+					<Typography className="mx-10 my-8 flex items-center justify-between">
 							<input id="command" type="text" name="command" placeholder="Type your command here... or not, it's up to you."
-									class="px-10 py-6 border border-gray-300 focus:border-red-300 focus:outline-none focus:ring focus:ring-red-200 focus:ring-opacity-50 rounded-md shadow-sm disabled:bg-gray-100 mt-1 w-full" />
+								className="px-10 py-6 border border-gray-300 focus:border-red-300 focus:outline-none focus:ring focus:ring-red-200 focus:ring-opacity-50 rounded-md shadow-sm disabled:bg-gray-100 mt-1 w-full" />
 							<ArrowUpwardSharp></ArrowUpwardSharp>
-						</div>
 					</Typography>
 				</AppBar>
 			</ThemeProvider>

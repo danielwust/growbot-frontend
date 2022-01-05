@@ -42,7 +42,7 @@ const navigationConfig = [
 			{
 				id: 'example-component',
 				title: 'Example',
-				translate: 'example',
+				translate: 'Example',
 				type: 'item',
 				icon: 'extension',
 				url: '/example'
