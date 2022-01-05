@@ -4,19 +4,17 @@ import { useHistory, useParams } from 'react-router';
 import _ from '@lodash';
 
 import Formsy from 'formsy-react';
-import FuseChipSelect from '@fuse/core/FuseChipSelect';
-import { TextFieldFormsy, SelectFormsy } from '@fuse/core/formsy';
+import { Grid } from '@material-ui/core';
+import { TextFieldFormsy } from '@fuse/core/formsy';
 import FuseLoading from '@fuse/core/FuseLoading';
 import { useDeepCompareEffect } from '@fuse/hooks';
 
 import { showMessage } from 'app/store/fuse/messageSlice';
 
 import objectsKeysEquals from 'app/utils/validations/objectsKeysEquals';
-import ButtonDefault from 'app/fuse-layouts/shared-components/button-default/ButtonDeafault';
-import { Grid, InputAdornment, MenuItem } from '@material-ui/core';
+import ButtonDefault from 'app/fuse-layouts/shared-components/button-default/ButtonDefault';
 
 import { newData, saveOne, getOne, updateOne, deleteOne, updateResponse, updateLoading } from '../store/productSlice';
-import Datetime from 'app/services/datetime';
 
 function Content() {
 	const dispatch = useDispatch();
@@ -202,3 +200,10 @@ function Content() {
 }
 
 export default Content;
+
+
+/*
+import Datetime from 'app/services/datetime';
+import FuseChipSelect from '@fuse/core/FuseChipSelect';
+InputAdornment, MenuItem, SelectFormsy
+*/ 
