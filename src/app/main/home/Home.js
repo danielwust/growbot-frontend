@@ -17,11 +17,7 @@ function Home(props) {
 			classes={{
 				root: classes.layoutRoot
 			}}
-			header={
-				<div className="p-24">
-					<h4>Bot De Comandos</h4>
-				</div>
-			}
+			// header={}
 			contentToolbar={
 				<div className="px-24">
 					<h4>Content Toolbar</h4>
@@ -30,7 +26,6 @@ function Home(props) {
 			content={
 				<div className="p-24">
 					<h4>Content</h4>
-					<br />
 					<ChatContent />
 				</div>
 			}
