@@ -12,7 +12,7 @@ import AppBar from "@material-ui/core/AppBar";
 
 function FooterLayout1(props) {
     const footerTheme = useSelector(selectFooterTheme);
-		const [ loading, setLoading] = useState(false);
+		const [ loading, setLoading ] = useState(false);
 		let command = "";
 
     async function sendCommand() {
